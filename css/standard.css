@@ -1,0 +1,59 @@
+html,
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16pt;
+    margin: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 0.25em;
+    width: 100%;
+    font-size: larger;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 5;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 0.25em;
+}
+a:hover{
+    color: violet;
+}
+#home{
+    
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+article{
+    box-sizing: border-box;
+    text-align: center;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 4rem;
+}
+.logo{
+    width: 9ch;
+}
+.title,
+.logo{
+    font-family: "Indie Flower";
+    font-size: 3em;
+}
+.tagline{
+    font-style: italic;
+    font-size: 1.5em;
+}
